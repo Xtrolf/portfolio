@@ -1,29 +1,28 @@
-# Adi Singh — Web Developer Portfolio
+# Adi Singh — Portfolio v2
 
-I'm Adi Singh (`Xtrolf` on GitHub), based in India and working toward web development / full-stack developer opportunities.
+A futuristic, responsive personal portfolio built with **Next.js 15 App Router, React 19, TypeScript, Framer Motion, and Lucide React**.
 
-- **Portfolio:** https://github.com/Xtrolf/portfolio
-- **GitHub:** https://github.com/Xtrolf
-- **Focus:** web development, full-stack applications, useful product experiences
+## Features
+- Responsive dark interface with neon-lime and cyan accents
+- Animated hero, orbit illustration, scrolling ticker, and reveal-on-scroll sections
+- Project showcase, technology toolkit, and direct contact links
+- Semantic page structure, Open Graph metadata, and reduced-motion support
 
-## Projects
+## Run locally
+```bash
+npm install
+npm run dev
+```
+Open http://localhost:3000.
 
-This repository is my portfolio site. I am building and documenting projects here as they become functional and deployed. I won't label concepts as finished products or claim technologies I haven't verified.
+## Production build
+```bash
+npm run build
+npm start
+```
 
-Planned portfolio projects:
-1. Personal portfolio and project showcase
-2. E-commerce storefront
-3. Task and habit tracker
-4. Job application tracker
-5. Expense and budget dashboard
-6. Notes app with search
-7. Weather dashboard
-8. URL shortener
-9. Support ticket dashboard
-10. Full-stack authentication and CRUD app
+## Deployment
+Connected to Vercel. Pushes to `main` trigger the configured production deployment.
 
-Each project should include a live demo, source code, setup instructions, and a clear description of what actually works before it is marked complete.
-
-## Contact
-
-For now, please contact me through GitHub: https://github.com/Xtrolf
+## Customize
+Edit project entries and skills in `app/page.tsx`. Update contact links and metadata before publishing. Project statuses intentionally distinguish active builds from research and concepts.
