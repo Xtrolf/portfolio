@@ -1,0 +1,4 @@
+import Link from "next/link";
+export default function PolicyLayout({title,updated,children}:{title:string;updated:string;children:React.ReactNode}) {
+ return <main className="policy-page"><header className="policy-nav"><Link href="/" className="logo">AS<span>.</span></Link><Link href="/">← BACK TO PORTFOLIO</Link></header><article className="policy-content"><span className="micro-label">XTROSYS / PORTFOLIO</span><h1>{title}</h1><p className="policy-updated">Last updated: {updated}</p>{children}<p className="policy-note">This is a general website policy draft, not legal advice. Confirm the operator's legal identity, business address and applicable legal obligations before relying on it as a final legal document.</p><Link href="/" className="policy-back">← RETURN HOME</Link></article></main>;
+}
