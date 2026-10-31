@@ -9,7 +9,7 @@ const projects = [
  {n:"04",name:"MYWORLD",type:"DIGITAL PRODUCT",desc:"A separate product exploration focused on a real user problem, clear value and sustainable product direction.",stack:["Research","UX","Prototyping"],state:"RESEARCH",symbol:"◎"}
 ];
 const skills = ["Next.js","React","TypeScript","JavaScript","HTML & CSS","Node.js","Supabase","Git & GitHub","Godot","AI Workflows"];
-const reveal = {hidden:{opacity:0,y:28},show:{opacity:1,y:0,transition:{duration:.65,ease:[.22,1,.36,1]}}};
+const reveal = {hidden:{opacity:0,y:28},show:{opacity:1,y:0,transition:{duration:.65,ease:"easeOut"}}};
 export default function Home(){
  const [menu,setMenu]=useState(false);
  return <main>
