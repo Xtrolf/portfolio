@@ -1,32 +1,32 @@
-# Adi Singh — Portfolio v2
+# Adi Singh — Portfolio
 
-**Live portfolio website: https://adi-singh-portfolio.vercel.app**
+**Portfolio website:** https://adi-singh-portfolio.vercel.app
 
-A futuristic, responsive personal portfolio built with **Next.js 15 App Router, React 19, TypeScript, Framer Motion, and Lucide React**.
+A responsive personal portfolio built with Next.js, React, TypeScript, Framer Motion and Lucide React.
 
-## Features
-- Responsive dark interface with neon-lime and cyan accents
-- Animated hero, orbit illustration, scrolling ticker, and reveal-on-scroll sections
-- Project showcase, technology toolkit, and direct contact links
-- Semantic page structure, Open Graph metadata, and reduced-motion support
+## Live projects
+
+| Project | Live demo | Source |
+|---|---|---|
+| TaskFlow - Task Manager | https://aditya-taskflow-manager.vercel.app | https://github.com/Xtrolf/taskflow-manager |
+| Northstar - Product Catalogue UI | https://aditya-northstar-storefront.vercel.app | https://github.com/Xtrolf/northstar-storefront |
 
 ## Run locally
+
 ```bash
 npm install
 npm run dev
 ```
+
 Open http://localhost:3000.
 
 ## Production build
+
 ```bash
 npm run build
 npm start
 ```
 
 ## Deployment
-Production website: https://adi-singh-portfolio.vercel.app
 
-Hosted on Vercel. The production deployment currently serves the portfolio website.
-
-## Customize
-Edit project entries and skills in `app/page.tsx`. Update contact links and metadata before publishing. Project statuses intentionally distinguish active builds from research and concepts.
+The portfolio is deployed on Vercel and connected to this repository's `main` branch. The two sample projects have separate GitHub repositories and separate Vercel projects.
