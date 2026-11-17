@@ -30,3 +30,8 @@ npm start
 ## Deployment
 
 The portfolio is deployed on Vercel and connected to this repository's `main` branch. The two sample projects have separate GitHub repositories and separate Vercel projects.
+
+
+## Vercel project ownership
+
+This repository is deployed only by the `adi-singh-portfolio` Vercel project. TaskFlow and Northstar are deployed from their own repositories: `Xtrolf/taskflow-manager` and `Xtrolf/northstar-storefront`.
