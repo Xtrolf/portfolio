@@ -9,3 +9,5 @@ button,a{ -webkit-tap-highlight-color:transparent}
 @media(max-width:700px){.cookie-banner{left:10px;right:10px;bottom:10px;display:block;padding:18px}.cookie-banner button{width:100%;margin-top:14px}.legal-links{order:3;width:100%;gap:13px}.footer{justify-content:space-between}.policy-content{margin:55px auto 70px}}
 
 .project-live-link{font:8px var(--mono);letter-spacing:.08em;color:var(--lime);text-decoration:underline;text-underline-offset:4px;position:relative;z-index:2}.project-live-link:hover{color:var(--cyan)}.project h3 a{display:inline-flex;align-items:center;justify-content:center;position:relative;z-index:2}.project h3 a:focus-visible{outline:2px solid var(--lime);outline-offset:5px}
+
+.project-links{display:flex;align-items:center;gap:12px}.project-source-link{font:8px var(--mono);letter-spacing:.08em;color:#b9c5bc;text-decoration:underline;text-underline-offset:4px;position:relative;z-index:2}.project-source-link:hover{color:var(--lime)}
